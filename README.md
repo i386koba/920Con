@@ -9,5 +9,12 @@ IM無線シールド Ver.2【Arduino UNO R3対応】
 http://www.interplan.co.jp/solution/wireless/im315shldv2.php
 
 
-WebよりBLEで送受信するコマンドを、BLEモジュールで送受信し、シリアルコマンドにしてIM920とやり取りする。
+WebよりWifiで送受信するコマンドを、ESP-WROOM-02で送受信し、シリアルコマンドにしてIM920とやり取りする。
 
+ESP-WROOM-02
+
+http://akizukidenshi.com/catalog/g/gK-09758/
+
+Webブラウザからpostメソッドでデータを送り、Arduino側で送られてくるデータを適切に処理することで、WebブラウザからArduinoを操作することができます。
+
+http://www.hiramine.com/physicalcomputing/espwroom02/webservercontrol.html
